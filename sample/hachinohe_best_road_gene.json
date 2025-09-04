@@ -1,0 +1,42 @@
+{
+  "best_gene": {
+    "rgb": {
+      "r_range": [
+        57,
+        163
+      ],
+      "g_range": [
+        60,
+        181
+      ],
+      "b_range": [
+        73,
+        147
+      ]
+    },
+    "hsv": {
+      "h_range": [
+        12,
+        154
+      ],
+      "s_range": [
+        6,
+        220
+      ],
+      "v_range": [
+        49,
+        244
+      ]
+    },
+    "morphology": {
+      "erosion_kernel": 2,
+      "dilation_kernel": 5
+    },
+    "filtering": {
+      "min_area": 241,
+      "aspect_ratio_threshold": 0.47530486204041156
+    }
+  },
+  "fitness": 0.9863862674968613,
+  "generation": 15
+}
