@@ -1,0 +1,35 @@
+# Grounded Segment Anything - ダウンロード済みファイル一覧
+
+## 学習済みモデル
+1. groundingdino_swint_ogc.pth (694MB) - GroundingDINO学習済みモデル
+2. sam_vit_h_4b8939.pth (2.4GB) - Segment Anything Model (ViT-H)
+
+## 八戸航空写真 (assets/hatinohe/)
+- 26個のJPEG画像ファイル (各2-3MB)
+- 撮影日: 2011年9月7-10日 (東日本大震災後)
+- ファイル例: 20110907-10-HF713-a2.jpg, 20110907-10-HF714-a2.jpg等
+
+## 車両画像 (assets/car/)
+- 11個のPNGフレーム画像 (各約3MB)
+- frame_0001.png ~ frame_0011.png
+
+## デモ画像
+- assets/demo1.jpg - クマの画像 (デモ用)
+
+## 出力結果
+- outputs/ - クマ検出結果
+- outputs_hachinohe/ - 八戸航空写真の建物・道路・川・橋検出結果
+- outputs_road_right/ - 道路右側検出結果
+
+## リポジトリ
+- GroundingDINO/ - GroundingDINOソースコード
+- segment_anything/ - Segment Anythingソースコード
+- 設定ファイル、デモスクリプト等
+
+## 追加作成ファイル
+- download_hachinohe_photos.py - 航空写真ダウンロードスクリプト
+- requirements.txt - 必要パッケージ一覧
+- downloaded_files.txt - このファイル
+
+## 総データ容量
+約3.2GB (モデル) + 約200MB (画像) = 約3.4GB
